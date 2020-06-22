@@ -6,8 +6,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
-
-  constructor() { }
+	card1title: string;
+	card2title: string;
+	card3title: string;
+  constructor() { 
+  	this.card1title = "We care about you";
+  	this.card2title = "We care about your money";
+  	this.card3title = "We care about your experience";
+  }
 
   ngOnInit(): void {
   }

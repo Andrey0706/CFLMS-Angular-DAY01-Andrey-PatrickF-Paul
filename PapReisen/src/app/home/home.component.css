@@ -1,0 +1,12 @@
+
+#rowContainer {
+
+}
+
+#rowUp {
+	display: flex;
+	justify-content: space-around;
+	margin: auto;
+	background-color: blue;
+	opacity: 0.5;
+}
