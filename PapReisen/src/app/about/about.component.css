@@ -1,0 +1,55 @@
+h1 {
+    text-align: center;
+    font-size: 5em;
+    font-weight: 300;
+    padding: 5px;
+}
+
+h2 {
+    text-align: center;
+    font-weight: 300;
+}
+
+h3 {
+    text-align: center;
+    font-weight: 300;
+}
+
+b {
+    font-weight: 700;
+}
+
+.box {
+    min-height: 20vh;
+}
+
+.box1{
+    color: white;
+    background-image: url(https://www.jusmedic.com/wp-content/uploads/2015/08/08-15-August-PAKLENI-AERIAL-Jus-Medic-2200px-1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.box2{
+    background-color: black;
+    border: 3px solid white;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.row .row>div {
+    border:solid 2px black;
+    min-height:200px;
+}
+
+.two-div {
+    height:400px;
+}
+.three-div {
+    height:600px;
+}
